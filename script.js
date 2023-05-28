@@ -14,3 +14,10 @@ names.shift();
 console.log(names);
 names.unshift("beqa");
 console.log(names);
+
+let newNumbersArray = [1,2,3,4,5];
+for (let index = 0; index < newNumbersArray. length; index++) {
+    console.log(newNumbersArray [index] + 10);
+    console.log(newNumbersArray [index] *7)
+}
+
