@@ -21,3 +21,16 @@ for (let index = 0; index < newNumbersArray. length; index++) {
     console.log(newNumbersArray [index] *7)
 }
 
+let numbersAr =[1,2,3,4,5,6,7,8,9,10,20,30,35,55,60,80,95,100];
+console.log(numbersAr.length);
+for (let index = 0; index < numbersAr. length; index++) {
+    console.log(numbersAr[index]);
+    if (Number % 2 === 0) {
+        numbersAr = true;
+        console.log(numbersAr);
+    } else {
+        numbersAr = Even;
+        console. log(numbersAr)
+    }
+}
+
