@@ -29,8 +29,19 @@ for (let index = 0; index < numbersAr. length; index++) {
         numbersAr = true;
         console.log(numbersAr);
     } else {
-        numbersAr = Even;
+        numbersAr = "Even";
         console. log(numbersAr)
     }
 }
 
+let texts = ["MY NAME IS JOHN"];
+for (let index = 0; index < texts. length; index++) { 
+    console. log(texts[index])
+    if (texts.length <3) {
+        let   upperCaseTexts = texts.toUpperCase();
+        console. log(upperCaseTexts);
+    }else {
+        let lowerCaseTexts = texts.toLowerCase(); 
+        console.log(lowerCaseTexts);
+    }
+}
