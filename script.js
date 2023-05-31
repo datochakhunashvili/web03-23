@@ -80,3 +80,7 @@ const getEvenOrOdd = (number3) => {
 console. log (getEvenOrOdd(4));
 console. log (getEvenOrOdd(5));
 
+let numbers4 = [5,8,10,13,16,18,23,35,40,46,49];
+let filterednumbers4 = numbers4.filter((index) => index %2 === 0);
+
+console.log(filterednumbers4);
