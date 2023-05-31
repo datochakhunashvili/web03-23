@@ -4,16 +4,16 @@
 //     console.log(numbersArray[index]);
 // };
 
-// let names = ["dato","giorgi","luka","sandro","andria"];
-// console.log(names);
-// names.push("nikolozi");
-// console.log(names);
-// names.pop();
-// console.log(names);
-// names.shift();
-// console.log(names);
-// names.unshift("beqa");
-// console.log(names);
+let names = ["dato","giorgi","luka","sandro","andria"];
+console.log(names);
+names.push("nikolozi");
+console.log(names);
+names.pop();
+console.log(names);
+names.shift();
+console.log(names);
+names.unshift("beqa");
+console.log(names);
 
 // let newNumbersArray = [1,2,3,4,5];
 // for (let index = 0; index < newNumbersArray. length; index++) {
@@ -56,4 +56,10 @@ while (index < 50) {
     console.log(index);
     index++;
 }
+
+let number = [];
+for (let i = 1; i < 10000; i++) {
+    number.push(i * i);
+}
+console.log(number);
 
