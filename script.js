@@ -63,3 +63,20 @@ for (let i = 1; i < 10000; i++) {
 }
 console.log(number);
 
+let numbers2 = [3,6,8,20,35,60,75,95];
+let sum = 0;
+for (let i = 0; i < numbers2. length; i++) {
+    sum = sum + numbers2 [i];
+    console. log (sum);
+}
+
+const getEvenOrOdd = (number3) => {
+    if (number3 %2 === 0) {
+        return "true";
+    } else{
+        return "false";
+    };
+};
+console. log (getEvenOrOdd(4));
+console. log (getEvenOrOdd(5));
+
